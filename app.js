@@ -25,5 +25,6 @@ function generateRandomNumber() {
     return random;
   } else {
     generateRandomNumber();
+    console.log("text");
   }
 }
